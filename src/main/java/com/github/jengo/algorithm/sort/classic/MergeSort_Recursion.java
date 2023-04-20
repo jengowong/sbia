@@ -82,8 +82,8 @@ public class MergeSort_Recursion {
     @Deprecated
     public static void main(String[] args) {
         //int[] arr = new int[]{8, 16, 29, 37, 44, 44, 49, 52, 57, 59, 68};
-        //int[] arr = {1, 3, 4, 5, 7, 2, 6, 8, 0};
-        int[] arr = {3};
+        int[] arr = {1, 3, 4, 5, 7, 2, 6, 8, 0};
+        //int[] arr = {3};
         LOG.info("before sort: {}", arr);
         descendingSort(arr, 0, arr.length - 1);
         LOG.info("after  sort: {}", arr);
